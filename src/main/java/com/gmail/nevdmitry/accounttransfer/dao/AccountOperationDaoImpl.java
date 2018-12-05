@@ -1,18 +1,12 @@
 package com.gmail.nevdmitry.accounttransfer.dao;
 
-import java.math.BigDecimal;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.Date;
-import java.util.LinkedHashMap;
 import java.util.Objects;
-import java.util.Queue;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.atomic.AtomicLong;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

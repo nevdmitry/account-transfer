@@ -8,8 +8,8 @@ import com.gmail.nevdmitry.accounttransfer.util.Util;
 import static spark.Spark.before;
 import static spark.Spark.exception;
 import static spark.Spark.get;
-import static spark.Spark.post;
 import static spark.Spark.port;
+import static spark.Spark.post;
 
 public class AccountTransfer {
     public static void main(String[] args) {
